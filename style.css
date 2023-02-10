@@ -1,0 +1,213 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.topleft{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    top: 0;
+    font-size: 250%;
+    opacity: 10%;
+    list-style: none;
+    pointer-events: none;
+}
+.bottomright{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    position: absolute;
+    margin-right: 10px;
+    right: 0;
+    bottom: 0;
+    font-size: 250%;
+    opacity: 10%;
+    pointer-events: none;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: aliceblue;
+    pointer-events: none;
+}
+
+.unheader{
+    width: auto;
+    font-size: 300%;
+    display: flex;
+    color: rgb(24, 105, 211);
+    justify-content: center;
+    margin-top: 20px;
+    cursor: default;
+    transition: all 1s;
+}
+.unheader:hover{
+    transition: all 1s;
+    letter-spacing: 3px;
+}
+
+.fr{
+    color: grey;
+    font-size: 80%;
+}
+.sec{
+    color: grey;
+    font-size: 80%;
+}
+
+.utopiaszlogo{
+    display: flex;
+    border-radius: 200px;
+}
+
+.desc{
+    color: grey;
+    text-align: center;
+    cursor: default;
+}
+.prHeader{
+    color: aliceblue;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+    cursor: default;
+}
+
+.self{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.special{
+    color: rgb(24, 105, 211);
+}
+
+.grid{
+    color: aliceblue;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pause{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 300%;
+    text-align: center;
+    opacity: 3%;
+    cursor: default;
+}
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    cursor: default;
+    color: rgb(70, 70, 70);
+}
+
+.bottombar{
+    bottom: 0;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: aliceblue;
+    width: 25vh;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+
+.skills{
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.TEXT{
+    display: block;
+}
+
+
+
+
+/*icons*/
+
+.fa-html5{
+    color: green;
+}
+
+.fa-css3-alt{
+    color:orange;
+}
+
+.fa-arrow-right{
+    color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-square-envelope{
+    color: grey;
+    transition: all 0.2s;
+}
+.fa-square-envelope:hover{
+    transition: all 0.2s;
+    color: black;
+    cursor: pointer;
+}
+
+.fa-square-github{
+    color: grey;
+    transition: all 0.2s;
+}
+.fa-square-github:hover{
+    transition: all 0.2s;
+    color: black;
+    cursor: pointer;
+}
+
+.fa-square-twitter{
+    color: grey;
+    transition: all 0.2s;
+}
+.fa-square-twitter:hover{
+    color: black;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.fa-square-instagram{
+    color: grey;
+    transition: all 0.2s;
+}
+.fa-square-instagram:hover{
+    color: black;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
